@@ -86377,7 +86377,7 @@ A.EG.prototype={
 ae(){return new A.Yo(B.t)}}
 A.Yo.prototype={
 N(a,b){var s=null
-return new A.o4(A.aXc(B.x,2600,60,"images/splash.png",new A.BA(s),"Billing as simple as 123",A.p(s,s,B.l,s,s,s,s,s,"brandingsf",s,s,14.31*$.b.h().gv(),s,B.E,s,s,!0,s,s,s,s,s,s,s,s)),"March Screen",!1,s)}}
+return new A.o4(A.aXc(B.x,2600,60,"assets/images/splash.png",new A.BA(s),"Billing as simple as 123",A.p(s,s,B.l,s,s,s,s,s,"brandingsf",s,s,14.31*$.b.h().gv(),s,B.E,s,s,!0,s,s,s,s,s,s,s,s)),"March Screen",!1,s)}}
 A.BA.prototype={
 ae(){return new A.Vb(B.t)}}
 A.Vb.prototype={
