@@ -80846,7 +80846,7 @@ $4(a,b,c,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d="uiSize"
 this.a.go=b
 s=13*$.b.h().gv()
 r=$.b.h()
-r=A.bn("images/img_15.png",e,e,e,7*(r.gm()/A.a(r.a,d).a))
+r=A.bn("assets/images/img_15.png",e,e,e,7*(r.gm()/A.a(r.a,d).a))
 q=$.b.h().gn()
 p=$.b.h()
 o=p.gm()
