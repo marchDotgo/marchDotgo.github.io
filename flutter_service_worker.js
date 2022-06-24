@@ -23,7 +23,7 @@ const RESOURCES = {
 "assets/fonts/montserrat-Light.ttf": "a17f43cc60643d965636985afc00a221",
 "assets/fonts/montserrat-Medium.ttf": "aca6287f22eef510c1e622c97bb1e1e1",
 "assets/fonts/montserrat-SemiBold.ttf": "7ffeec2b4edb434d393875ffbe633c30",
-"assets/NOTICES": "8e6e354dea311a6d7c7bedbc722c550b",
+"assets/NOTICES": "f861693a358bbaf239bb4448b238f7c9",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/packages/flutter_vector_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
@@ -52,9 +52,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "fbca3107d3a9de3ef6e1d7c5f2a2e56a",
-"/": "fbca3107d3a9de3ef6e1d7c5f2a2e56a",
-"main.dart.js": "7c2aebcf6404e3bd0b78d97b7b7feff9",
+"index.html": "4def09f19c0f06d2e14796fb4074e637",
+"/": "4def09f19c0f06d2e14796fb4074e637",
+"main.dart.js": "bbd17ac6496aea55a1a8de0428aa03bc",
 "manifest.json": "5626dfe1d1c1c9352a83684a52a821a7",
 "version.json": "227cfeb6ef816299e8de0aefb91214d2"
 };
