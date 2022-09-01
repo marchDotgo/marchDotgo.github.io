@@ -93030,37 +93030,63 @@ bt(){var s=this
 s.u(new A.ayC(s))
 s.An(s.p1.a.a)
 s.rE(s.p2.a.a)},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.to[a],h=m.p3,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.azj(m,B.e.cq(h,h[a]),n))},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.to[a6],a4=a.p3,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.azj(a,B.e.cq(a4,a4[a6]),b))},
 a5b(a,b,c,d,e,f,g,h,i){var s=this.c
 s.toString
 return A.db(!0,new A.ay2(this,d,c,b,a,e,f,g,h,i),s,!0,t.z)},
 pH(a){if(a>0||this.p1.a.a!=="0")return!0
 else return!1},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.ry[a],i=m.rx,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.cj("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.azg(m,B.e.cq(i,i[a]),n))},
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.ry[a5],a3=a.rx,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.cj("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.azg(a,B.e.cq(a3,a3[a5]),b))},
 An(a){this.u(new A.ayc(this))},
 er(){var s=0,r=A.D(t.z),q=this
 var $async$er=A.E(function(a,b){if(a===1)return A.A(b,r)
@@ -93071,15 +93097,28 @@ return A.C($async$er,r)},
 mN(a){return A.db(!0,new A.az1(),a,!0,t.z)},
 mZ(a,b){var s=t.N,r=A.Z(["profite_lock","true","profite_code",""],s,s)
 a.b.S(0,b).au(0,r).W(0,new A.azi(this),t.P)},
-q6(a,b){var s,r,q,p,o,n,m=this,l=m.to[a],k=m.p3,j=k[a]
-if(b!==""||b!=="."){s=J.J(l)
-r=A.m(s.i(l,"sellingPrice"))*A.m(b)
-q=A.m(s.i(l,"taxRate"))
-s=A.m(s.i(l,"taxRate"))
-p=J.J(j)
-o=t.z
-n=A.Z(["productName",p.i(j,"productName"),"taxRate",B.f.H(r*q/(100+s),2),"mrp",p.i(j,"mrp"),"actualTaxRate",p.i(j,"actualTaxRate"),"sellingPrice",B.f.H(r,2),"purchasePrice",p.i(j,"purchasePrice"),"creater_uid",p.i(j,"creater_uid"),"createdTime",p.i(j,"createdTime"),"totalProductQty",p.i(j,"totalProductQty"),"totalQtyNo",p.i(j,"totalQtyNo"),"typeOfAdding",p.i(j,"typeOfAdding"),"hsnCode",p.i(j,"hsnCode"),"key",p.i(j,"key"),"State","Active","QTY",b,"productType",p.i(j,"productType"),"QrCode",p.i(j,"QrCode"),"img",p.i(j,"img")],o,o)
-m.u(new A.azk(m,B.e.cq(k,k[a]),n))}},
+q6(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=c.to[a1],a=c.p3,a0=a[a1]
+if(a2!==""||a2!=="."){s=J.J(b)
+r=A.m(s.i(b,"sellingPrice"))*A.m(a2)
+q=A.m(s.i(b,"taxRate"))
+s=A.m(s.i(b,"taxRate"))
+p=J.J(a0)
+o=p.i(a0,"productName")
+s=B.f.H(r*q/(100+s),2)
+q=p.i(a0,"mrp")
+n=p.i(a0,"actualTaxRate")
+m=B.f.H(r,2)
+l=p.i(a0,"purchasePrice")
+k=p.i(a0,"creater_uid")
+j=p.i(a0,"createdTime")
+i=p.i(a0,"totalProductQty")
+h=p.i(a0,"totalQtyNo")
+g=p.i(a0,"typeOfAdding")
+f=p.i(a0,"hsnCode")
+if(f==null)f=""
+e=t.z
+d=A.Z(["productName",o,"taxRate",s,"mrp",q,"actualTaxRate",n,"sellingPrice",m,"purchasePrice",l,"creater_uid",k,"createdTime",j,"totalProductQty",i,"totalQtyNo",h,"typeOfAdding",g,"hsnCode",f,"key",p.i(a0,"key"),"State","Active","QTY",a2,"productType",p.i(a0,"productType"),"QrCode",p.i(a0,"QrCode"),"img",p.i(a0,"img")],e,e)
+c.u(new A.azk(c,B.e.cq(a,a[a1]),d))}},
 HV(){var s,r,q,p,o=this
 o.fr=0
 s=A.aU("discountTotal")
@@ -96705,57 +96744,122 @@ return A.F(new A.bd(A.b(q.cx,"_ref").a.aW(0,"createrId").b0(0,q.db,null)).aL(0).
 case 3:q.u(new A.aPa(q))
 return A.B(null,r)}})
 return A.C($async$dn,r)},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.P[a],i=m.C,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aPP(m,B.e.cq(i,i[a]),n))},
-L7(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.D[a],i=m.ck,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aPO(m,B.e.cq(i,i[a]),n))},
-q6(a,b){var s,r,q,p=this,o=p.bT[a],n=p.aN,m=n[a],l=J.J(o),k=A.m(l.i(o,"sellingPrice"))*A.m(b),j=A.m(l.i(o,"taxRate"))
-l=A.m(l.i(o,"taxRate"))
-s=J.J(m)
-r=t.z
-q=A.Z(["productName",s.i(m,"productName"),"taxRate",B.f.H(k*j/(100+l),2),"mrp",s.i(m,"mrp"),"actualTaxRate",s.i(m,"actualTaxRate"),"sellingPrice",B.f.H(k,2),"purchasePrice",s.i(m,"purchasePrice"),"creater_uid",s.i(m,"creater_uid"),"createdTime",s.i(m,"createdTime"),"totalProductQty",s.i(m,"totalProductQty"),"totalQtyNo",s.i(m,"totalQtyNo"),"typeOfAdding",s.i(m,"typeOfAdding"),"hsnCode",s.i(m,"hsnCode"),"key",s.i(m,"key"),"State","Active","QTY",b,"productType",s.i(m,"productType"),"QrCode",s.i(m,"QrCode"),"img",s.i(m,"img")],r,r)
-p.u(new A.aPS(p,B.e.cq(n,n[a]),q))},
-atM(a,b){var s,r,q,p=this,o=p.O[a],n=p.bb,m=n[a],l=J.J(o),k=A.m(l.i(o,"sellingPrice"))*A.m(b),j=A.m(l.i(o,"taxRate"))
-l=A.m(l.i(o,"taxRate"))
-s=J.J(m)
-r=t.z
-q=A.Z(["productName",s.i(m,"productName"),"taxRate",B.f.H(k*j/(100+l),2),"mrp",s.i(m,"mrp"),"actualTaxRate",s.i(m,"actualTaxRate"),"sellingPrice",B.f.H(k,2),"purchasePrice",s.i(m,"purchasePrice"),"creater_uid",s.i(m,"creater_uid"),"createdTime",s.i(m,"createdTime"),"totalProductQty",s.i(m,"totalProductQty"),"totalQtyNo",s.i(m,"totalQtyNo"),"typeOfAdding",s.i(m,"typeOfAdding"),"hsnCode",s.i(m,"hsnCode"),"key",s.i(m,"key"),"State","Active","QTY",b,"productType",s.i(m,"productType"),"QrCode",s.i(m,"QrCode"),"img",s.i(m,"img")],r,r)
-p.u(new A.aPR(p,B.e.cq(n,n[a]),q))},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.bT[a],h=m.aN,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.aPQ(m,B.e.cq(h,h[a]),n))}}
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.P[a5],a3=a.C,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.H(p,2)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aPP(a,B.e.cq(a3,a3[a5]),b))},
+L7(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.D[a5],a3=a.ck,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.H(p,2)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aPO(a,B.e.cq(a3,a3[a5]),b))},
+q6(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=f.bT[a1],d=f.aN,c=d[a1],b=J.J(e),a=A.m(b.i(e,"sellingPrice"))*A.m(a2),a0=A.m(b.i(e,"taxRate"))
+b=A.m(b.i(e,"taxRate"))
+s=J.J(c)
+r=s.i(c,"productName")
+b=B.f.H(a*a0/(100+b),2)
+a0=s.i(c,"mrp")
+q=s.i(c,"actualTaxRate")
+p=B.f.H(a,2)
+o=s.i(c,"purchasePrice")
+n=s.i(c,"creater_uid")
+m=s.i(c,"createdTime")
+l=s.i(c,"totalProductQty")
+k=s.i(c,"totalQtyNo")
+j=s.i(c,"typeOfAdding")
+i=s.i(c,"hsnCode")
+if(i==null)i=""
+h=t.z
+g=A.Z(["productName",r,"taxRate",b,"mrp",a0,"actualTaxRate",q,"sellingPrice",p,"purchasePrice",o,"creater_uid",n,"createdTime",m,"totalProductQty",l,"totalQtyNo",k,"typeOfAdding",j,"hsnCode",i,"key",s.i(c,"key"),"State","Active","QTY",a2,"productType",s.i(c,"productType"),"QrCode",s.i(c,"QrCode"),"img",s.i(c,"img")],h,h)
+f.u(new A.aPS(f,B.e.cq(d,d[a1]),g))},
+atM(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=f.O[a1],d=f.bb,c=d[a1],b=J.J(e),a=A.m(b.i(e,"sellingPrice"))*A.m(a2),a0=A.m(b.i(e,"taxRate"))
+b=A.m(b.i(e,"taxRate"))
+s=J.J(c)
+r=s.i(c,"productName")
+b=B.f.H(a*a0/(100+b),2)
+a0=s.i(c,"mrp")
+q=s.i(c,"actualTaxRate")
+p=B.f.H(a,2)
+o=s.i(c,"purchasePrice")
+n=s.i(c,"creater_uid")
+m=s.i(c,"createdTime")
+l=s.i(c,"totalProductQty")
+k=s.i(c,"totalQtyNo")
+j=s.i(c,"typeOfAdding")
+i=s.i(c,"hsnCode")
+if(i==null)i=""
+h=t.z
+g=A.Z(["productName",r,"taxRate",b,"mrp",a0,"actualTaxRate",q,"sellingPrice",p,"purchasePrice",o,"creater_uid",n,"createdTime",m,"totalProductQty",l,"totalQtyNo",k,"typeOfAdding",j,"hsnCode",i,"key",s.i(c,"key"),"State","Active","QTY",a2,"productType",s.i(c,"productType"),"QrCode",s.i(c,"QrCode"),"img",s.i(c,"img")],h,h)
+f.u(new A.aPR(f,B.e.cq(d,d[a1]),g))},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.bT[a6],a4=a.aN,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.aPQ(a,B.e.cq(a4,a4[a6]),b))}}
 A.aPN.prototype={
 $0(){var s=this.a
 if(s.ax)s.at=s.ax=!1
@@ -102878,32 +102982,58 @@ return A.F(new A.bd(A.b(q.w,"_ref").a.aW(0,"productName").b0(0,a,null)).aL(0).W(
 case 2:return A.B(null,r)}})
 return A.C($async$dq,r)},
 mi(a){new A.bd(A.b(this.w,"_ref").a.aW(0,"QrCode").b0(0,a,null)).aL(0).W(0,new A.aGA(this,a),t.P)},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.ry[a],i=m.rx,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aHt(m,B.e.cq(i,i[a]),n))},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.to[a],h=m.RG,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.aHw(m,B.e.cq(h,h[a]),n))},
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.ry[a5],a3=a.rx,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aHt(a,B.e.cq(a3,a3[a5]),b))},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.to[a6],a4=a.RG,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.aHw(a,B.e.cq(a4,a4[a6]),b))},
 er(){var s=0,r=A.D(t.z),q=this
 var $async$er=A.E(function(a,b){if(a===1)return A.A(b,r)
 while(true)switch(s){case 0:s=2
@@ -104734,54 +104864,106 @@ return A.F(new A.bd(A.b(q.y,"_ref").a.aW(0,"productName").b0(0,a,null)).aL(0).W(
 case 2:return A.B(null,r)}})
 return A.C($async$dq,r)},
 mi(a){new A.bd(A.b(this.y,"_ref").a.aW(0,"QrCode").b0(0,a,null)).aL(0).W(0,new A.aI9(this,a),t.P)},
-mY(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.x1[a],i=m.to,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aJg(m,B.e.cq(i,i[a]),n))},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.cy[a],i=m.cx,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aJf(m,B.e.cq(i,i[a]),n))},
-q6(a,b){var s,r,q,p,o,n,m=this,l=m.db[a],k=m.CW,j=k[a]
-if(b!==""||b!=="."){s=J.J(l)
-r=A.m(s.i(l,"sellingPrice"))*A.m(b)
-q=A.m(s.i(l,"taxRate"))
-s=A.m(s.i(l,"taxRate"))
-p=J.J(j)
-o=t.z
-n=A.Z(["productName",p.i(j,"productName"),"taxRate",B.f.H(r*q/(100+s),2),"mrp",p.i(j,"mrp"),"actualTaxRate",p.i(j,"actualTaxRate"),"sellingPrice",B.f.H(r,2),"purchasePrice",p.i(j,"purchasePrice"),"creater_uid",p.i(j,"creater_uid"),"createdTime",p.i(j,"createdTime"),"totalProductQty",p.i(j,"totalProductQty"),"totalQtyNo",p.i(j,"totalQtyNo"),"typeOfAdding",p.i(j,"typeOfAdding"),"hsnCode",p.i(j,"hsnCode"),"key",p.i(j,"key"),"State","Active","QTY",b,"productType",p.i(j,"productType"),"QrCode",p.i(j,"QrCode"),"img",p.i(j,"img")],o,o)
-m.u(new A.aJk(m,B.e.cq(k,k[a]),n))}},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.db[a],h=m.CW,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.aJj(m,B.e.cq(h,h[a]),n))},
+mY(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.x1[a5],a3=a.to,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aJg(a,B.e.cq(a3,a3[a5]),b))},
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.cy[a5],a3=a.cx,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aJf(a,B.e.cq(a3,a3[a5]),b))},
+q6(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=c.db[a1],a=c.CW,a0=a[a1]
+if(a2!==""||a2!=="."){s=J.J(b)
+r=A.m(s.i(b,"sellingPrice"))*A.m(a2)
+q=A.m(s.i(b,"taxRate"))
+s=A.m(s.i(b,"taxRate"))
+p=J.J(a0)
+o=p.i(a0,"productName")
+s=B.f.H(r*q/(100+s),2)
+q=p.i(a0,"mrp")
+n=p.i(a0,"actualTaxRate")
+m=B.f.H(r,2)
+l=p.i(a0,"purchasePrice")
+k=p.i(a0,"creater_uid")
+j=p.i(a0,"createdTime")
+i=p.i(a0,"totalProductQty")
+h=p.i(a0,"totalQtyNo")
+g=p.i(a0,"typeOfAdding")
+f=p.i(a0,"hsnCode")
+if(f==null)f=""
+e=t.z
+d=A.Z(["productName",o,"taxRate",s,"mrp",q,"actualTaxRate",n,"sellingPrice",m,"purchasePrice",l,"creater_uid",k,"createdTime",j,"totalProductQty",i,"totalQtyNo",h,"typeOfAdding",g,"hsnCode",f,"key",p.i(a0,"key"),"State","Active","QTY",a2,"productType",p.i(a0,"productType"),"QrCode",p.i(a0,"QrCode"),"img",p.i(a0,"img")],e,e)
+c.u(new A.aJk(c,B.e.cq(a,a[a1]),d))}},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.db[a6],a4=a.CW,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.aJj(a,B.e.cq(a4,a4[a6]),b))},
 pH(a){if(a>0)return!0
 else return!1},
 er(){var s=0,r=A.D(t.z),q=this
@@ -105921,45 +106103,84 @@ return A.F(new A.bd(A.b(q.r,"_ref").a.aW(0,"productName").b0(0,a,null)).aL(0).W(
 case 2:return A.B(null,r)}})
 return A.C($async$dq,r)},
 mi(a){new A.bd(A.b(this.r,"_ref").a.aW(0,"QrCode").b0(0,a,null)).aL(0).W(0,new A.aQm(this,a),t.P)},
-mY(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.p1[a],i=m.ok,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aRo(m,B.e.cq(i,i[a]),n))},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.k3[a],i=m.k2,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aRn(m,B.e.cq(i,i[a]),n))},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.k4[a],h=m.k1,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.aRp(m,B.e.cq(h,h[a]),n))}}
+mY(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.p1[a5],a3=a.ok,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aRo(a,B.e.cq(a3,a3[a5]),b))},
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.k3[a5],a3=a.k2,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aRn(a,B.e.cq(a3,a3[a5]),b))},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.k4[a6],a4=a.k1,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.aRp(a,B.e.cq(a4,a4[a6]),b))}}
 A.aR2.prototype={
 $0(){},
 $S:4}
@@ -108789,41 +109010,80 @@ return A.F(new A.bd(A.b(q.y,"_ref").a.aW(0,"productName").b0(0,a,null)).aL(0).W(
 case 2:return A.B(null,r)}})
 return A.C($async$dq,r)},
 mi(a){new A.bd(A.b(this.y,"_ref").a.aW(0,"QrCode").b0(0,a,null)).aL(0).W(0,new A.aKN(this,a),t.P)},
-dS(a,b){var s,r,q,p,o,n,m=this,l="QTY",k="sellingPrice",j=m.x1[a],i=m.to,h=i[a]
-if(b===1){s=J.nf(J.n(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}else{r=J.J(h)
-if(J.l(r.i(h,l),1)){s=r.i(h,l)
-A.it("Only one product left")}else s=J.lQ(r.i(h,l),1)
-r=J.J(j)
-q=A.m(r.i(j,k))*s
-p=A.m(r.i(j,"taxRate"))*s}r=J.J(h)
-o=t.z
-n=A.Z(["productName",r.i(h,"productName"),"taxRate",B.f.n(p),"mrp",r.i(h,"mrp"),"actualTaxRate",r.i(h,"actualTaxRate"),"sellingPrice",B.f.n(q),"purchasePrice",r.i(h,"purchasePrice"),"creater_uid",r.i(h,"creater_uid"),"createdTime",r.i(h,"createdTime"),"totalProductQty",r.i(h,"totalProductQty"),"totalQtyNo",r.i(h,"totalQtyNo"),"typeOfAdding",r.i(h,"typeOfAdding"),"hsnCode",r.i(h,"hsnCode"),"key",r.i(h,"key"),"State","Active","QTY",s,"productType",r.i(h,"productType"),"QrCode",r.i(h,"QrCode"),"img",r.i(h,"img")],o,o)
-m.u(new A.aLH(m,B.e.cq(i,i[a]),n))},
-q6(a,b){var s,r,q,p,o,n,m=this,l=m.x2[a],k=m.ry,j=k[a]
-if(b!==""||b!=="."){s=J.J(l)
-r=A.m(s.i(l,"sellingPrice"))*A.m(b)
-q=A.m(s.i(l,"taxRate"))
-s=A.m(s.i(l,"taxRate"))
-p=J.J(j)
-o=t.z
-n=A.Z(["productName",p.i(j,"productName"),"taxRate",B.f.H(r*q/(100+s),2),"mrp",p.i(j,"mrp"),"actualTaxRate",p.i(j,"actualTaxRate"),"sellingPrice",B.f.H(r,2),"purchasePrice",p.i(j,"purchasePrice"),"creater_uid",p.i(j,"creater_uid"),"createdTime",p.i(j,"createdTime"),"totalProductQty",p.i(j,"totalProductQty"),"totalQtyNo",p.i(j,"totalQtyNo"),"typeOfAdding",p.i(j,"typeOfAdding"),"hsnCode",p.i(j,"hsnCode"),"key",p.i(j,"key"),"State","Active","QTY",b,"productType",p.i(j,"productType"),"QrCode",p.i(j,"QrCode"),"img",p.i(j,"img")],o,o)
-m.u(new A.aLL(m,B.e.cq(k,k[a]),n))}},
-dJ(a,b){var s,r,q,p,o,n,m=this,l=null,k="QTY",j="sellingPrice",i=m.x2[a],h=m.ry,g=h[a]
-if(b===1){s=A.b7(J.n(g,k),l)+1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}else{r=J.J(g)
-if(A.b7(r.i(g,k),l)===1){s=A.b7(r.i(g,k),l)
-A.it("Only one product left")}else s=A.b7(r.i(g,k),l)-1
-r=J.J(i)
-q=A.m(r.i(i,j))*s
-p=A.m(r.i(i,"taxRate"))*s}r=J.J(g)
-o=t.z
-n=A.Z(["productName",r.i(g,"productName"),"taxRate",B.f.H(p,2),"mrp",r.i(g,"mrp"),"actualTaxRate",r.i(g,"actualTaxRate"),"sellingPrice",B.f.H(q,2),"purchasePrice",r.i(g,"purchasePrice"),"creater_uid",r.i(g,"creater_uid"),"createdTime",r.i(g,"createdTime"),"totalProductQty",r.i(g,"totalProductQty"),"totalQtyNo",r.i(g,"totalQtyNo"),"typeOfAdding",r.i(g,"typeOfAdding"),"hsnCode",r.i(g,"hsnCode"),"key",r.i(g,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(g,"productType"),"QrCode",r.i(g,"QrCode"),"img",r.i(g,"img")],o,o)
-m.u(new A.aLK(m,B.e.cq(h,h[a]),n))},
+dS(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0="QTY",a1="sellingPrice",a2=a.x1[a5],a3=a.to,a4=a3[a5]
+if(a6===1){s=J.nf(J.n(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}else{r=J.J(a4)
+if(J.l(r.i(a4,a0),1)){s=r.i(a4,a0)
+A.it("Only one product left")}else s=J.lQ(r.i(a4,a0),1)
+r=J.J(a2)
+q=A.m(r.i(a2,a1))*s
+p=A.m(r.i(a2,"taxRate"))*s}r=J.J(a4)
+o=r.i(a4,"productName")
+n=B.f.n(p)
+m=r.i(a4,"mrp")
+l=r.i(a4,"actualTaxRate")
+k=B.f.n(q)
+j=r.i(a4,"purchasePrice")
+i=r.i(a4,"creater_uid")
+h=r.i(a4,"createdTime")
+g=r.i(a4,"totalProductQty")
+f=r.i(a4,"totalQtyNo")
+e=r.i(a4,"typeOfAdding")
+d=r.i(a4,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a4,"key"),"State","Active","QTY",s,"productType",r.i(a4,"productType"),"QrCode",r.i(a4,"QrCode"),"img",r.i(a4,"img")],c,c)
+a.u(new A.aLH(a,B.e.cq(a3,a3[a5]),b))},
+q6(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=c.x2[a1],a=c.ry,a0=a[a1]
+if(a2!==""||a2!=="."){s=J.J(b)
+r=A.m(s.i(b,"sellingPrice"))*A.m(a2)
+q=A.m(s.i(b,"taxRate"))
+s=A.m(s.i(b,"taxRate"))
+p=J.J(a0)
+o=p.i(a0,"productName")
+s=B.f.H(r*q/(100+s),2)
+q=p.i(a0,"mrp")
+n=p.i(a0,"actualTaxRate")
+m=B.f.H(r,2)
+l=p.i(a0,"purchasePrice")
+k=p.i(a0,"creater_uid")
+j=p.i(a0,"createdTime")
+i=p.i(a0,"totalProductQty")
+h=p.i(a0,"totalQtyNo")
+g=p.i(a0,"typeOfAdding")
+f=p.i(a0,"hsnCode")
+if(f==null)f=""
+e=t.z
+d=A.Z(["productName",o,"taxRate",s,"mrp",q,"actualTaxRate",n,"sellingPrice",m,"purchasePrice",l,"creater_uid",k,"createdTime",j,"totalProductQty",i,"totalQtyNo",h,"typeOfAdding",g,"hsnCode",f,"key",p.i(a0,"key"),"State","Active","QTY",a2,"productType",p.i(a0,"productType"),"QrCode",p.i(a0,"QrCode"),"img",p.i(a0,"img")],e,e)
+c.u(new A.aLL(c,B.e.cq(a,a[a1]),d))}},
+dJ(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="QTY",a2="sellingPrice",a3=a.x2[a6],a4=a.ry,a5=a4[a6]
+if(a7===1){s=A.b7(J.n(a5,a1),a0)+1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}else{r=J.J(a5)
+if(A.b7(r.i(a5,a1),a0)===1){s=A.b7(r.i(a5,a1),a0)
+A.it("Only one product left")}else s=A.b7(r.i(a5,a1),a0)-1
+r=J.J(a3)
+q=A.m(r.i(a3,a2))*s
+p=A.m(r.i(a3,"taxRate"))*s}r=J.J(a5)
+o=r.i(a5,"productName")
+n=B.f.H(p,2)
+m=r.i(a5,"mrp")
+l=r.i(a5,"actualTaxRate")
+k=B.f.H(q,2)
+j=r.i(a5,"purchasePrice")
+i=r.i(a5,"creater_uid")
+h=r.i(a5,"createdTime")
+g=r.i(a5,"totalProductQty")
+f=r.i(a5,"totalQtyNo")
+e=r.i(a5,"typeOfAdding")
+d=r.i(a5,"hsnCode")
+if(d==null)d=""
+c=t.z
+b=A.Z(["productName",o,"taxRate",n,"mrp",m,"actualTaxRate",l,"sellingPrice",k,"purchasePrice",j,"creater_uid",i,"createdTime",h,"totalProductQty",g,"totalQtyNo",f,"typeOfAdding",e,"hsnCode",d,"key",r.i(a5,"key"),"State","Active","QTY",B.o.n(s),"productType",r.i(a5,"productType"),"QrCode",r.i(a5,"QrCode"),"img",r.i(a5,"img")],c,c)
+a.u(new A.aLK(a,B.e.cq(a4,a4[a6]),b))},
 er(){var s=0,r=A.D(t.z),q=this
 var $async$er=A.E(function(a,b){if(a===1)return A.A(b,r)
 while(true)switch(s){case 0:s=2
