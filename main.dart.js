@@ -24807,7 +24807,6 @@ ef:function ef(a,b){this.c=a
 this.a=b},
 a_v:function a_v(a,b){var _=this
 _.d=0
-_.e="false"
 _.r=_.f=""
 _.w=$
 _.x=null
@@ -91360,7 +91359,7 @@ break
 case 1:return A.C(q,r)}})
 return A.D($async$bl,r)},
 E8(){var s=this
-if(s.e==="true"||s.r==="activated"||s.f==="activated")s.v(new A.aw6(s))
+if(s.r==="activated"||s.f==="activated")s.v(new A.aw6(s))
 else s.v(new A.aw7(s))}}
 A.awl.prototype={
 $0(){this.a.E8()},
@@ -91416,8 +91415,9 @@ $2(a,b){var s=this.a
 s.v(new A.awi(s,b))},
 $S:2}
 A.awi.prototype={
-$0(){var s=this.a,r=this.b,q=J.L(r)
-s.e=q.i(r,"desktop")
+$0(){var s,r=this.b,q=J.L(r)
+q.i(r,"desktop")
+s=this.a
 s.r=q.i(r,"desktop_sub_status")
 s.f=q.i(r,"trial_status")},
 $S:0}
@@ -91602,7 +91602,7 @@ b3=A.v(15*Math.min(b3.gk()/A.a(b3.a,a2).a,b3.gl()))
 b2=a9*0.01
 b0=a9*0.04
 j=a9*0.03
-return A.q(A.c([b1,A.l(a1,A.j(A.c([a7,s,new A.A(1,a1),b4,new A.A(1,a1),A.q(A.c([new A.A(1,a1),A.l(a1,A.q(A.c([new A.A(1,a1),new A.m(new A.k(k,0,0,0),new A.ba(B.a0,a1,a1,A.aB(!1,a1,!0,A.h("Extra Features",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,17*$.b.h().gj(),a1,a1,B.C,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,new A.awF(a0),a1,a1,a1),a1),a1),new A.ba(B.a0,a1,a1,A.q(A.c([new A.m(new A.k(k,0,0,0),A.e(A.bI(B.f,a1,0.5),b2,a8*0.15),a1),new A.m(new A.k(0,0,o,0),A.e(A.bI(new A.z(4294947716),a1,3),a9*0.017,a8*0.12),a1)],f),B.c,B.d,B.a),a1),new A.A(1,a1),new A.m(new A.k(k,0,0,0),A.h("Reports",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,16*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),new A.m(new A.k(k,0,0,0),A.j(A.c([A.e(A.bI(B.p,10*$.b.h().gl(),a1),a1,h),new A.m(new A.k(0,0,h,0),A.b0(B.f_,B.f,15),a1)],f),B.c,B.d,B.a),a1),A.b7(B.F,A.c([A.a8("images/wave.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("P&L Statement",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/bill.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("Bill Wise Report",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/pdf.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("Item Reports",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1)],f),B.Q,B.B,B.F,0,0),A.e(a1,a9*0.015,a1),A.j(A.c([A.a8("images/partyreport.png",a1,a1,a1,b0,a1,e),A.h("Party Reports  ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),A.a8("images/taxes.png",a1,a1,a1,b0,a1,e),A.h("Taxes",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1)],f),B.c,B.d,B.a),new A.A(1,a1),new A.m(new A.k(k,0,0,0),A.h("Analytics",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,16*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),new A.m(new A.k(k,0,0,0),A.j(A.c([A.e(A.bI(B.p,10*$.b.h().gl(),a1),a1,h),new A.m(new A.k(0,0,h,0),A.b0(B.f_,B.f,15),a1)],f),B.c,B.d,B.a),a1),A.b7(B.F,A.c([A.a8("images/graph.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("P&L Graph            ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/stock.png",a1,a1,a1,a9*0.025,a1,k),new A.m(new A.k(0,b2,0,0),A.h("Stock Graph                ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/invoicegraph.png",a1,a1,a1,j,a1,k),new A.m(new A.k(0,b2,0,0),A.h("Invoice Graph",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1)],f),B.Q,B.B,B.F,0,0),new A.A(1,a1),A.j(A.c([new A.A(1,a1),new A.ba(B.fx,a1,a1,A.h("COMMING SOON",a1,a1,a1,a1,a1,A.d(a1,a1,B.p,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.C,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.e(a1,a1,r)],f),B.c,B.r,B.a),A.e(a1,j,a1)],f),B.O,B.r,B.a),B.e,a1,a1,new A.w(new A.z(4294964976),a1,a1,b3,a1,a1,B.n),a1,a9*0.5,a1,a1,a1,a1,a1,a8*0.35),new A.A(1,a1)],f),B.c,B.r,B.a),A.e(a1,a1,e)],f),B.c,B.r,B.a),B.e,B.m,a1,a1,a1,a9*0.7,a1,a1,a1,a1,a1,a8)],f),B.c,B.d,B.a)},
+return A.q(A.c([b1,A.l(a1,A.j(A.c([a7,s,new A.A(1,a1),b4,new A.A(1,a1),A.q(A.c([new A.A(1,a1),A.l(a1,A.q(A.c([new A.A(1,a1),new A.m(new A.k(k,0,0,0),new A.ba(B.a0,a1,a1,A.aB(!1,a1,!0,A.h("Extra Features",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,17*$.b.h().gj(),a1,a1,B.C,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,new A.awF(a0),a1,a1,a1),a1),a1),new A.ba(B.a0,a1,a1,A.q(A.c([new A.m(new A.k(k,0,0,0),A.e(A.bI(B.f,a1,0.5),b2,a8*0.15),a1),new A.m(new A.k(0,0,o,0),A.e(A.bI(new A.z(4294947716),a1,3),a9*0.017,a8*0.12),a1)],f),B.c,B.d,B.a),a1),new A.A(1,a1),new A.m(new A.k(k,0,0,0),A.h("Reports",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,16*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),new A.m(new A.k(k,0,0,0),A.j(A.c([A.e(A.bI(B.p,10*$.b.h().gl(),a1),a1,h),new A.m(new A.k(0,0,h,0),A.b0(B.f_,B.f,15),a1)],f),B.c,B.d,B.a),a1),A.b7(B.F,A.c([A.a8("images/wave.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("P&L Statement",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/bill.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("Bill Wise Report",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/pdf.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("Item Reports",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1)],f),B.Q,B.B,B.F,0,0),A.e(a1,a9*0.015,a1),A.j(A.c([A.a8("images/partyreport.png",a1,a1,a1,b0,a1,e),A.h("Party Reports  ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),A.a8("images/taxes.png",a1,a1,a1,b0,a1,e),A.h("Taxes",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1)],f),B.c,B.d,B.a),new A.A(1,a1),new A.m(new A.k(k,0,0,0),A.h("Analytics",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,16*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),new A.m(new A.k(k,0,0,0),A.j(A.c([A.e(A.bI(B.p,10*$.b.h().gl(),a1),a1,h),new A.m(new A.k(0,0,h,0),A.b0(B.f_,B.f,15),a1)],f),B.c,B.d,B.a),a1),A.b7(B.F,A.c([A.a8("images/graph.png",a1,a1,a1,b0,a1,e),new A.m(new A.k(0,b2,0,0),A.h("P&L Graph            ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/stock.png",a1,a1,a1,a9*0.025,a1,k),new A.m(new A.k(0,b2,0,0),A.h("Stock Graph                ",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.a8("images/invoicegraph.png",a1,a1,a1,j,a1,k),new A.m(new A.k(0,b2,0,0),A.h("Invoice Graph",a1,a1,a1,a1,a1,A.d(a1,a1,B.f,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.v,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1)],f),B.Q,B.B,B.F,0,0),new A.A(1,a1),A.j(A.c([new A.A(1,a1),new A.ba(B.fx,a1,a1,A.h("COMING SOON",a1,a1,a1,a1,a1,A.d(a1,a1,B.p,a1,a1,a1,a1,a1,a3,a1,a1,12*$.b.h().gj(),a1,a1,B.C,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),A.e(a1,a1,r)],f),B.c,B.r,B.a),A.e(a1,j,a1)],f),B.O,B.r,B.a),B.e,a1,a1,new A.w(new A.z(4294964976),a1,a1,b3,a1,a1,B.n),a1,a9*0.5,a1,a1,a1,a1,a1,a8*0.35),new A.A(1,a1)],f),B.c,B.r,B.a),A.e(a1,a1,e)],f),B.c,B.r,B.a),B.e,B.m,a1,a1,a1,a9*0.7,a1,a1,a1,a1,a1,a8)],f),B.c,B.d,B.a)},
 bl(){var s=0,r=A.E(t.z),q,p=this
 var $async$bl=A.F(function(a,b){if(a===1)return A.B(b,r)
 while(true)switch(s){case 0:s=3
@@ -91718,7 +91718,7 @@ vj(){var s=this.c,r=s.q(t.w).f,q=$.b.h()
 q=30*Math.min(q.gk()/A.a(q.a,"uiSize").a,q.gl())
 A.aYa(new A.awt(),new A.aP(0,r.a.a*0.8,0,1/0),s,!0,new A.bQ(A.b3_(new A.Z(q,q)),B.T),t.H)},
 E8(){var s=this
-if(s.id==="true"||s.k1==="activated"||s.k4==="activated")s.v(new A.awn(s))
+if(s.k1==="activated"||s.k4==="activated")s.v(new A.awn(s))
 else s.v(new A.awo(s))}}
 A.awZ.prototype={
 $3(a,b,c){},
