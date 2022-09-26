@@ -3,59 +3,60 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "4c122553465072ccfd3c5fb580c97bcb",
-"assets/assets/loader.json": "b4dd2b2eb21c9349344cd3dd922bfa0b",
-"assets/FontManifest.json": "9151d32c9321aeb645e530c35b78c542",
-"assets/fonts/brandingsf.ttf": "1fa80a1f5c2451dc15909e42a2e84c71",
-"assets/fonts/Inter-Black.ttf": "c6dacb6bcfcd747bba440bf2fbd2c85a",
-"assets/fonts/Inter-Bold.ttf": "cef517a165e8157d9f14a0911190948d",
-"assets/fonts/Inter-ExtraBold.ttf": "82c8c1cf127220ccd9914e5dc739de28",
-"assets/fonts/Inter-ExtraLight.ttf": "819a76705047d6474cb529a319e74bbc",
-"assets/fonts/Inter-Light.ttf": "d4be01c95657978131342b1dcf829a45",
-"assets/fonts/Inter-Medium.ttf": "1aa99aa25c72307cb7f16fae35e8c9d1",
-"assets/fonts/Inter-Regular.ttf": "eba360005eef21ac6807e45dc8422042",
-"assets/fonts/Inter-SemiBold.ttf": "3e87064b7567bef4ecd2ba977ce028bc",
-"assets/fonts/Inter-Thin.ttf": "f482d38d962b4d95853bef956ff6dd83",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/fonts/montserrat-Black.ttf": "55e37a35525c63e130e76d588f2f5e8d",
-"assets/fonts/montserrat-Bold.ttf": "d14ad1035ae6da4e5a71eca362a8d696",
-"assets/fonts/montserrat-Light.ttf": "a17f43cc60643d965636985afc00a221",
-"assets/fonts/montserrat-Medium.ttf": "aca6287f22eef510c1e622c97bb1e1e1",
-"assets/fonts/montserrat-SemiBold.ttf": "7ffeec2b4edb434d393875ffbe633c30",
-"assets/NOTICES": "e6391423717e4a082d77724349dc5036",
-"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
-"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
-"assets/packages/flutter_vector_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
-"assets/packages/flutter_vector_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
-"assets/packages/flutter_vector_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
-"assets/packages/flutter_vector_icons/fonts/Feather.ttf": "e766963327e0a89f9ec2ba88646b6177",
-"assets/packages/flutter_vector_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
-"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Brands.ttf": "13685372945d816a2b474fc082fd9aaa",
-"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Regular.ttf": "db78b9359171f24936b16d84f63af378",
-"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Solid.ttf": "1ab236ed440ee51810c56bd16628aef0",
-"assets/packages/flutter_vector_icons/fonts/Fontisto.ttf": "b49ae8ab2dbccb02c4d11caaacf09eab",
-"assets/packages/flutter_vector_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
-"assets/packages/flutter_vector_icons/fonts/Ionicons.ttf": "b3263095df30cb7db78c613e73f9499a",
-"assets/packages/flutter_vector_icons/fonts/MaterialCommunityIcons.ttf": "6a2ddad1092a0a1c326b6d0e738e682b",
-"assets/packages/flutter_vector_icons/fonts/MaterialIcons.ttf": "8ef52a15e44481b41e7db3c7eaf9bb83",
-"assets/packages/flutter_vector_icons/fonts/Octicons.ttf": "8e7f807ef943bff1f6d3c2c6e0f3769e",
-"assets/packages/flutter_vector_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
-"assets/packages/flutter_vector_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+  "version.json": "4a672589a2cda37b5a3e80020a530504",
+"index.html": "ea8ee6a9739fa84264ecedb77400a793",
+"/": "ea8ee6a9739fa84264ecedb77400a793",
+"main.dart.js": "d3b3d1121a04ca584f8a220c0bb88c19",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "b9ed2d2188b86ecbf26cc1edbaf1dba8",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/Icon-192.png": "95592e049f614fb31594dca882c15c3d",
-"icons/Icon-512.png": "95592e049f614fb31594dca882c15c3d",
 "icons/Icon-maskable-192.png": "95592e049f614fb31594dca882c15c3d",
 "icons/Icon-maskable-512.png": "95592e049f614fb31594dca882c15c3d",
-"index.html": "0331c784dd8a5f3d72ae6bbb8772129b",
-"/": "0331c784dd8a5f3d72ae6bbb8772129b",
-"main.dart.js": "e912be2f5239825edc50655e1138176f",
+"icons/Icon-512.png": "95592e049f614fb31594dca882c15c3d",
 "manifest.json": "5626dfe1d1c1c9352a83684a52a821a7",
-"version.json": "4a672589a2cda37b5a3e80020a530504"
+"assets/AssetManifest.json": "4c122553465072ccfd3c5fb580c97bcb",
+"assets/NOTICES": "8587a64feaac53b6e3a9f3bf495bf802",
+"assets/FontManifest.json": "9151d32c9321aeb645e530c35b78c542",
+"assets/packages/flutter_vector_icons/fonts/Fontisto.ttf": "b49ae8ab2dbccb02c4d11caaacf09eab",
+"assets/packages/flutter_vector_icons/fonts/Octicons.ttf": "8e7f807ef943bff1f6d3c2c6e0f3769e",
+"assets/packages/flutter_vector_icons/fonts/Feather.ttf": "e766963327e0a89f9ec2ba88646b6177",
+"assets/packages/flutter_vector_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
+"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Brands.ttf": "13685372945d816a2b474fc082fd9aaa",
+"assets/packages/flutter_vector_icons/fonts/MaterialCommunityIcons.ttf": "6a2ddad1092a0a1c326b6d0e738e682b",
+"assets/packages/flutter_vector_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
+"assets/packages/flutter_vector_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
+"assets/packages/flutter_vector_icons/fonts/Ionicons.ttf": "b3263095df30cb7db78c613e73f9499a",
+"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Solid.ttf": "1ab236ed440ee51810c56bd16628aef0",
+"assets/packages/flutter_vector_icons/fonts/FontAwesome5_Regular.ttf": "db78b9359171f24936b16d84f63af378",
+"assets/packages/flutter_vector_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
+"assets/packages/flutter_vector_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
+"assets/packages/flutter_vector_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
+"assets/packages/flutter_vector_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
+"assets/packages/flutter_vector_icons/fonts/MaterialIcons.ttf": "8ef52a15e44481b41e7db3c7eaf9bb83",
+"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
+"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
+"assets/shaders/ink_sparkle.frag": "317cf384aba1efac3efcc49eadee0eec",
+"assets/fonts/Inter-Medium.ttf": "1aa99aa25c72307cb7f16fae35e8c9d1",
+"assets/fonts/montserrat-Medium.ttf": "aca6287f22eef510c1e622c97bb1e1e1",
+"assets/fonts/Inter-Light.ttf": "d4be01c95657978131342b1dcf829a45",
+"assets/fonts/montserrat-Light.ttf": "a17f43cc60643d965636985afc00a221",
+"assets/fonts/Inter-Thin.ttf": "f482d38d962b4d95853bef956ff6dd83",
+"assets/fonts/Inter-Bold.ttf": "cef517a165e8157d9f14a0911190948d",
+"assets/fonts/montserrat-Bold.ttf": "d14ad1035ae6da4e5a71eca362a8d696",
+"assets/fonts/Inter-Regular.ttf": "eba360005eef21ac6807e45dc8422042",
+"assets/fonts/brandingsf.ttf": "1fa80a1f5c2451dc15909e42a2e84c71",
+"assets/fonts/montserrat-SemiBold.ttf": "7ffeec2b4edb434d393875ffbe633c30",
+"assets/fonts/Inter-ExtraBold.ttf": "82c8c1cf127220ccd9914e5dc739de28",
+"assets/fonts/Inter-ExtraLight.ttf": "819a76705047d6474cb529a319e74bbc",
+"assets/fonts/montserrat-Black.ttf": "55e37a35525c63e130e76d588f2f5e8d",
+"assets/fonts/Inter-Black.ttf": "c6dacb6bcfcd747bba440bf2fbd2c85a",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/fonts/Inter-SemiBold.ttf": "3e87064b7567bef4ecd2ba977ce028bc",
+"assets/assets/loader.json": "b4dd2b2eb21c9349344cd3dd922bfa0b",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -63,7 +64,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -162,9 +162,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
