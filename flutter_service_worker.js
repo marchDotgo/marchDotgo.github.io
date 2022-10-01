@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "fe4b300616efa3262f5fdead0d956d9b",
+  "assets/AssetManifest.json": "4c122553465072ccfd3c5fb580c97bcb",
 "assets/assets/loader.json": "b4dd2b2eb21c9349344cd3dd922bfa0b",
 "assets/FontManifest.json": "9151d32c9321aeb645e530c35b78c542",
 "assets/fonts/brandingsf.ttf": "1fa80a1f5c2451dc15909e42a2e84c71",
@@ -22,7 +22,7 @@ const RESOURCES = {
 "assets/fonts/montserrat-Light.ttf": "a17f43cc60643d965636985afc00a221",
 "assets/fonts/montserrat-Medium.ttf": "aca6287f22eef510c1e622c97bb1e1e1",
 "assets/fonts/montserrat-SemiBold.ttf": "7ffeec2b4edb434d393875ffbe633c30",
-"assets/NOTICES": "e6391423717e4a082d77724349dc5036",
+"assets/NOTICES": "ef09aa2a4fac24d170534e98fa8b53a1",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/packages/flutter_vector_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
@@ -51,9 +51,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "7422e50b44bda6a413be405b58af40fb",
 "icons/Icon-maskable-192.png": "ead59ab3b9d35d922a685909672be504",
 "icons/Icon-maskable-512.png": "7422e50b44bda6a413be405b58af40fb",
-"index.html": "a8a90b783ab83eeda659b8e3bed86b51",
-"/": "a8a90b783ab83eeda659b8e3bed86b51",
-"main.dart.js": "376313bbc92918a2f263346196d4d539",
+"index.html": "becb0bcb9908b73bb357409390098930",
+"/": "becb0bcb9908b73bb357409390098930",
+"main.dart.js": "2d5e95fceeb73eebcaa43888f6594e0a",
 "manifest.json": "5626dfe1d1c1c9352a83684a52a821a7",
 "version.json": "4a672589a2cda37b5a3e80020a530504"
 };
