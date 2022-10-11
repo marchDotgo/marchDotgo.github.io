@@ -99216,28 +99216,29 @@ $2(a,b){if(b.b>650)return B.SD
 else return B.Je},
 $S:174}
 A.yD.prototype={
-H(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="typeOfAdding",e=h.c,d=h.d,c=e[d],b=A.t(30)
-b=A.c([A.dg(B.R,B.Tf,A.h_(A.i(g,A.fU(A.l(B.eX,B.c,B.F,B.b),1/0),B.d,g,g,new A.u(B.D,g,g,b,g,g,B.n),g,40,g,g,g,g,g,110)),h.x),A.dg(B.R,B.AV,g,h.w)],t.B)
+H(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="typeOfAdding",d=g.c,c=g.d,b=d[c],a=A.t(30)
+a=A.c([A.dg(B.R,B.Tf,A.h_(A.i(f,A.fU(A.l(B.eX,B.c,B.F,B.b),1/0),B.d,f,f,new A.u(B.D,f,f,a,f,f,B.n),f,40,f,f,f,f,f,110)),g.x),A.dg(B.R,B.AV,f,g.w)],t.B)
 s=A.t(10)
 r=A.bw(B.GB,0.7)
-q=h.f
+q=g.f
 p=q>1200
 o=p?0:8
 n=p?0:8
-m=A.t(7)
+m=q>1950?q*0.01:0
 l=A.t(7)
-k=J.f(e[d],"img")!=null&&!J.n(J.f(e[d],"img"),"")?new A.cy(J.f(e[d],"img"),g):A.dq(B.pZ,new A.l9(B.fN,A.ah("images/noImageProduct.png",g,g,g,45,g,45),g))
-m=A.i(B.E,A.dq(B.pZ,A.i(B.E,k,B.d,g,g,new A.u(g,g,g,l,g,g,B.n),g,47,g,g,g,g,g,47)),B.d,g,g,new A.u(B.fN,g,g,m,g,g,B.n),g,50,g,g,g,g,g,50)
-if(q>1800)l=90
-else if(q>1400)l=70
-else l=q>1250?70:55
-k=t.p
-l=A.r(A.c([new A.m(B.IB,new A.f6(new A.aN(0,l,0,1/0),A.ai(A.j(A.h(J.f(e[d],"productName")),g,g,g,g,g,B.Ug,g,g),g,B.z,g,g,B.x),g),g),A.j(A.h(J.f(e[d],"totalQtyNo"))+" Qty",g,g,g,g,g,B.Vy,g,g)],k),B.M,B.F,B.b)
-j=a0.q(t.w).f
-i=A.h(J.f(e[d],"sellingPrice"))
-q=A.i(g,A.as(A.ai(A.a1(g,g,B.A,!0,g,A.v(A.c([A.v(g,A.d(g,g,B.D,g,g,g,g,g,"Montserrat",g,g,17,g,p?B.B:B.v,g,g,!0,g,g,g,g,g,g,g,g),i)],t.Ne),B.Vm,"\u20b9 "),B.t,g,g,1,B.y),g,B.z,g,g,B.x),g,g),B.d,g,g,g,g,j.a.b*0.03,g,g,g,g,g,q*0.06)
-p=J.n(J.f(e[d],f),"LOOSE")?B.i:B.p
-return A.f2(g,A.i(g,A.l(A.c([new A.m(new A.k(5,0,5,0),new A.m(new A.k(0,o,0,n),m,g),g),l,B.w,new A.m(B.ip,q,g),A.r(A.c([A.i(B.E,A.j(J.n(J.f(e[d],f),"LOOSE")?"MAN":"BAR",g,g,g,g,g,B.Bz,g,g),B.d,g,g,new A.u(p,g,g,B.pY,g,g,B.n),g,g,g,g,B.J2,g,g,g),new A.m(B.rp,A.cQ("images/arrower.json",g,15),g)],k),B.aB,B.aZ,B.b)],k),B.c,B.q,B.b),B.d,g,g,new A.u(B.m,g,r,s,g,g,B.n),g,g,g,g,g,g,g,g),g,400,g,!0,new A.cj(c,t.Nf),500,b)}}
+k=A.t(7)
+j=J.f(d[c],"img")!=null&&!J.n(J.f(d[c],"img"),"")?new A.cy(J.f(d[c],"img"),f):A.dq(B.pZ,new A.l9(B.fN,A.ah("images/noImageProduct.png",f,f,f,45,f,45),f))
+l=A.i(B.E,A.dq(B.pZ,A.i(B.E,j,B.d,f,f,new A.u(f,f,f,k,f,f,B.n),f,47,f,f,f,f,f,47)),B.d,f,f,new A.u(B.fN,f,f,l,f,f,B.n),f,50,f,f,f,f,f,50)
+if(q>1800)k=80
+else if(q>1400)k=70
+else k=q>1250?70:55
+j=t.p
+k=A.r(A.c([new A.m(B.IB,new A.f6(new A.aN(0,k,0,1/0),A.ai(A.j(A.h(J.f(d[c],"productName")),f,f,f,f,f,B.Ug,f,f),f,B.z,f,f,B.x),f),f),A.j(A.h(J.f(d[c],"totalQtyNo"))+" Qty",f,f,f,f,f,B.Vy,f,f)],j),B.M,B.F,B.b)
+i=a1.q(t.w).f
+h=A.h(J.f(d[c],"sellingPrice"))
+q=A.i(f,A.as(A.ai(A.a1(f,f,B.A,!0,f,A.v(A.c([A.v(f,A.d(f,f,B.D,f,f,f,f,f,"Montserrat",f,f,17,f,p?B.B:B.v,f,f,!0,f,f,f,f,f,f,f,f),h)],t.Ne),B.Vm,"\u20b9 "),B.t,f,f,1,B.y),f,B.z,f,f,B.x),f,f),B.d,f,f,f,f,i.a.b*0.03,f,f,f,f,f,q*0.06)
+p=J.n(J.f(d[c],e),"LOOSE")?B.i:B.p
+return A.f2(f,A.i(f,A.l(A.c([new A.m(new A.k(5,0,5,0),new A.m(new A.k(m,o,0,n),l,f),f),k,B.w,new A.m(B.ip,q,f),A.r(A.c([A.i(B.E,A.j(J.n(J.f(d[c],e),"LOOSE")?"MAN":"BAR",f,f,f,f,f,B.Bz,f,f),B.d,f,f,new A.u(p,f,f,B.pY,f,f,B.n),f,f,f,f,B.J2,f,f,f),new A.m(B.rp,A.cQ("images/arrower.json",f,15),f)],j),B.aB,B.aZ,B.b)],j),B.c,B.q,B.b),B.d,f,f,new A.u(B.m,f,r,s,f,f,B.n),f,f,f,f,f,f,f,f),f,400,f,!0,new A.cj(b,t.Nf),500,a)}}
 A.zQ.prototype={
 H(a,b){var s=null,r=this.e,q=A.t(25)
 return A.i(s,A.b5(this.c,B.m,s),B.d,s,s,new A.u(this.d,s,s,q,s,s,B.n),s,r,s,s,s,s,s,r)}}
@@ -101980,7 +101981,7 @@ o=t.p
 q=A.r(A.c([B.ek,new A.aM(B.P,a4,a4,a6,a4),r,m,l,A.e(p,a8*0.58,q),A.e(a4,a8*0.05,a4),B.w],o),B.M,B.q,B.b)
 p=A.e(B.dN,a8*0.22,a4)
 l=A.e(a4,a8*0.15,a4)
-a6=a8>1800?a8*0.43:a8*0.4
+a6=a8>700?a8*0.43:a8*0.4
 r=A.t(10)
 n=a7*0.02
 m=a8*0.03
