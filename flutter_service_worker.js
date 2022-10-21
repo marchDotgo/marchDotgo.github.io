@@ -4,17 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "897d9927ffe22f001a1d0b10bdaf7a44",
-<<<<<<< HEAD
-"index.html": "7ca90a830a2891bce4079ea07657895b",
-"/": "7ca90a830a2891bce4079ea07657895b",
-"main.dart.js": "7ae521ac47315650207052165ce9c533",
+"index.html": "d27243b5770f0449d5fab36c9e397ae4",
+"/": "d27243b5770f0449d5fab36c9e397ae4",
+"main.dart.js": "9ffca1b67b87a18aaa945719b7a31e42",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-=======
-"index.html": "e75df58e3d01e5fdccad2ebff53c1dfb",
-"/": "e75df58e3d01e5fdccad2ebff53c1dfb",
-"main.dart.js": "8de35b3262babde2faab6f37126058ba",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
->>>>>>> 19331bce4692c9eb238a0170ef03f116c63ed81f
 "favicon.png": "b9ed2d2188b86ecbf26cc1edbaf1dba8",
 "icons/Icon-192.png": "ead59ab3b9d35d922a685909672be504",
 "icons/Icon-maskable-192.png": "ead59ab3b9d35d922a685909672be504",
@@ -22,11 +15,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "7422e50b44bda6a413be405b58af40fb",
 "manifest.json": "5626dfe1d1c1c9352a83684a52a821a7",
 "assets/AssetManifest.json": "164a46598942e34b771af22f6fe28d4d",
-<<<<<<< HEAD
 "assets/NOTICES": "d8755c95418e6cf6b8592651eb8b8c20",
-=======
-"assets/NOTICES": "8082b552265cc00db39820f2448a48a3",
->>>>>>> 19331bce4692c9eb238a0170ef03f116c63ed81f
 "assets/FontManifest.json": "9151d32c9321aeb645e530c35b78c542",
 "assets/packages/flutter_vector_icons/fonts/Fontisto.ttf": "b49ae8ab2dbccb02c4d11caaacf09eab",
 "assets/packages/flutter_vector_icons/fonts/Octicons.ttf": "8e7f807ef943bff1f6d3c2c6e0f3769e",
@@ -46,7 +35,6 @@ const RESOURCES = {
 "assets/packages/flutter_vector_icons/fonts/MaterialIcons.ttf": "8ef52a15e44481b41e7db3c7eaf9bb83",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
-"assets/shaders/ink_sparkle.frag": "317cf384aba1efac3efcc49eadee0eec",
 "assets/fonts/Inter-Medium.ttf": "1aa99aa25c72307cb7f16fae35e8c9d1",
 "assets/fonts/montserrat-Medium.ttf": "aca6287f22eef510c1e622c97bb1e1e1",
 "assets/fonts/Inter-Light.ttf": "d4be01c95657978131342b1dcf829a45",
@@ -65,10 +53,10 @@ const RESOURCES = {
 "assets/fonts/Inter-SemiBold.ttf": "3e87064b7567bef4ecd2ba977ce028bc",
 "assets/assets/images.zip": "e5e0c361f8f7b7588634908a4b347d10",
 "assets/assets/loader.json": "b4dd2b2eb21c9349344cd3dd922bfa0b",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -76,6 +64,7 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -174,11 +163,9 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache only if the resource was successfully fetched.
+        // lazily populate the cache.
         return response || fetch(event.request).then((response) => {
-          if (response && Boolean(response.ok)) {
-            cache.put(event.request, response.clone());
-          }
+          cache.put(event.request, response.clone());
           return response;
         });
       })
